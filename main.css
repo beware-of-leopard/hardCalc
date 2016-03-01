@@ -1,0 +1,36 @@
+*{
+	padding:0;
+	margin:0;
+}
+.calcWrapper{
+	width: 500px;
+	border: 1px solid white;
+}
+
+.calcWrapper > div{
+	overflow: hidden;
+	background: #7bab55;
+	width: 100%;
+	height: 50px;
+}
+
+.calcWrapper div div{
+	float: left;
+	text-align: center;
+	border: 1px solid white;
+	height: 50px;
+	line-height: 50px;
+}
+
+.row1 div:nth-child(1){
+	width: 24.5%;
+}
+
+.displayScreen{
+	width: 74.5r%;
+	height: 50px;
+}
+
+.row2 div, .row3 div, .row4 div, .row5 div{
+	width: 24.5%;
+}
